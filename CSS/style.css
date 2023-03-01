@@ -1,0 +1,185 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+    font-family: 'Lobster', cursive;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.logo{
+    width: 50px;
+    height: 50px;
+}
+.nav_1{
+    background-color: indigo;
+    background-image: linear-gradient(indigo,purple);
+}
+.nav_1_row a,span{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+.carousel-caption .trad,.trad_1{
+    text-shadow: 5px 5px 5px black;
+    font-size: 6vw;
+}
+.carousel-caption .trad{
+    font-size: 3vw;
+}
+.carousel-caption .btn-lg{
+    font-size: 2vw;
+    border-radius: 30px;
+    background-color: indigo;
+    box-shadow: 5px 5px 8px black;
+}
+.nav_2_row a{
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+}
+.nav_2_row a:hover{
+    color: indigo;
+}
+.nav_2_row .logo_cake{
+    color: indigo;
+}
+.nav_2_row .fa-cupcake{
+    color: indigo;
+}
+.hr_about{
+    height: 5px;
+    background-color: indigo;
+    margin: auto;
+}
+.div_promo{
+    background-image: url('Images/photo-promotion.jpg');
+    background-size: cover;
+}
+.play_div a{
+    text-align: center;
+    color: indigo;
+    padding: 20px 0;
+    box-sizing: border-box;
+}
+.but_promo{
+    background-color: indigo;
+    color: white;
+}
+.hr_services{
+    height: 5px;
+    background-color: indigo;
+}
+.img_ser{
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+.img_ser:hover{
+    transform: rotatey(360deg);
+}
+.img_ser1{
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+}
+.img_ser1:hover{
+    transform: rotate(360deg);
+}
+.but_card_ser{
+    background-color: indigo;
+    color: white;
+}
+.bor_port{
+    font-display: hidden;
+}
+.icon_plus{
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
+}
+.icon_plus:hover{
+    background-color: indigo;
+    color: white;
+    font-size: 0.5vw;
+    transform: scale(5.8, 2);
+}
+.price{
+    background-color: indigo;
+    color: white;
+}
+.card_price{
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
+}
+.card_price:hover{
+    background-color: #dc3545;
+    color: white;
+}
+.img_area_chef{
+    transition-duration: 2s;
+    transition-timing-function: ease;
+}
+.img_area_chef:hover{
+    transform:rotatey(360deg);
+}
+.chocolate{
+    text-decoration: none;
+    color: transparent;
+}
+
+.img_area_chef {
+    transition-duration: 2s;
+    transition-timing-function: ease-in;
+}
+
+.img_area_chef:hover {
+    transform: rotatey(360deg);
+}
+
+.img_1 {
+    height: 15vw;
+    background-image: url('Images/img-port-1.jpg');
+    background-size: cover;
+}
+
+.img_2 {
+    height: 15vw;
+    background-image: url('Images/buute.webp');
+    background-size: cover;
+}
+
+.img_3 {
+    height: 15vw;
+    background-image: url('Images/img-port-3.jpg');
+    background-size: cover;
+}
+
+.img_4 {
+    height: 15vw;
+    background-image: url('Images/pine.jpg');
+    background-size: cover;
+}
+
+.img_5 {
+    height: 15vw;
+    background-image: url('Images/img-port-5.jpg');
+    background-size: cover;
+}
+
+.img_6 {
+    height: 15vw;
+    background-image: url('Images/bl.webp');
+    background-size: cover;
+}
+
+.img_in {
+    height: 9vw;
+    transition-duration: 2s;
+    color: black;
+}
+
+.img_in:hover {
+    transform: scale(2);
+    background-image: linear-gradient(indigo, purple);
+}
+.img_in a:hover {
+    color: white;
+}

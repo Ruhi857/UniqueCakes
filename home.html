@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <title>Document</title>
+
+    <!--Bootstrap css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!--Bootstrap JS bundle-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/fddc627bf6.js" crossorigin="anonymous"></script>
+
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
+    <!--CSS/style-->
+    <link rel="stylesheet" href="CSS/style.css">
+
+    <!--JS/script-->
+    <script src="JS/script.js"></script>
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <!--1st Nav-->
+    <div class="container-fluid nav_1 position-relative" style="z-index: 3;">
+        <div class="container">
+            <div class="row nav_1_row pb-4">
+                <div class="col-6 p-4">
+                    <a href="#">FAQs</a>
+                    <span>|</span>
+                    <a href="#">Help</a>
+                    <span>|</span>
+                    <a href="#">Support</a>
+                </div>
+                <div class="col-6">
+                    <div class="d-flex justify-content-center">
+                        <div class="icons p-4"><a href="#">
+                                <i class="fa-brands fa-facebook-f fa-beat"></i>
+                            </a></div>
+                        <div class="icons p-4">
+                            <a href="#">
+                                <i class="fa-brands fa-twitter fa-beat"></i>
+                            </a>
+                        </div>
+                        <div class="icons p-4">
+                            <a href="#">
+                                <i class="fa-brands fa-linkedin-in fa-beat"></i>
+                            </a>
+                        </div>
+                        <div class="icons p-4">
+                            <a href="#">
+                                <i class="fa-brands fa-instagram fa-beat"></i>
+                            </a>
+                        </div>
+                        <div class="icons p-4">
+                            <a href="#">
+                                <i class="fa-brands fa-youtube fa-beat"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--2nd Nav-->
+    <div class="container-fluid nav-bar position-relative " style="top:-45px;z-index: 9;">
+        <div class="container-lg bg-light" style="border-radius: 45px;">
+            <div class="row p-2 nav_2_row justify-content-center">
+                <div class="col-5 mt-2 text-center text-dark">
+                    <a href="home.html" class="active m-3" style="color:indigo">HOME</a>
+                    <a href="#about" class="m-3">About</a>
+                    <a href="#product" class="m-3">Product</a>
+                </div>
+                <div class="col-2  text-center">
+                    <h1 class="logo_cake">C
+                        <i class="fa-sm fa-solid fa-cake-candles"></i>
+                        ke
+                    </h1>
+                </div>
+                <div class="col-5 mt-2  text-center">
+                    <a href="#service" class="m-3">Service</a>
+                    <a href="#gallery" class="m-3">Gallery</a>
+                    <a href="#contact" class="m-3">Contact</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--carousel-->
+    <div class="carousel slide carousel-fade position-relative" id="carouselExample" data-bs-ride="carousel"
+        data-bs-interval="5000" style="top:-83px;z-index: 3;">
+        <div class="carousel-inner w-100 m-auto">
+            <div class="carousel-indicators ">
+                <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="0" class="bg-white active"
+                    style="width: 15px; height: 15px;border-radius: 50%;"></button>
+                <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="1" class="bg-white"
+                    style="width: 15px; height: 15px;border-radius: 50%;"></button>
+                <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="2" class="bg-white"
+                    style="width: 15px; height: 15px;border-radius: 50%;"></button>
+            </div>
+            <div class="carousel-item " data-bs-interval="2000">
+                <img src="Images/caro8.png" alt="..." class="d-block w-100">
+                <div class="carousel-caption">
+                    <div class="p-3 mb-5" style="max-height: 300px;">
+                        <h4 class="trad mb-3">Traditional Cake</h4>
+                        <h1 class="trad_1 mb-3">Traditional Cake</h1>
+                        <a href="#" class="btn btn-lg text-white mb-5 " style="text-decoration: none; ">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item active" data-bs-interval="2000">
+                <img src="Images/caro7.jpg" alt="..." class="d-block w-100">
+                <div class="carousel-caption">
+                    <div class="p-3 mb-5" style="max-height: 300px;">
+                        <h4 class="trad mb-3">Traditional Cake</h4>
+                        <h1 class="trad_1 mb-3">Traditional Cake</h1>
+                        <a href="#" class="btn btn-lg text-white mb-5 " style="text-decoration: none; ">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="Images/caro4.jpg" alt="..." class="d-block w-100">
+                <div class="carousel-caption">
+                    <div class="p-3 mb-5" style="max-height: 300px;">
+                        <h4 class="trad mb-3">Traditional Cake</h4>
+                        <h1 class="trad_1 mb-3">Traditional Cake</h1>
+                        <a href="#" class="btn btn-lg text-white mb-5 " style="text-decoration: none; ">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev"
+                data-bs-interval="5000">
+                <span class="carousel-control-prev-icon"></span>
+                <span class="visually-hidden">previous</span>
+            </button>
+
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next"
+                data-bs-interval="5000">
+                <span class="carousel-control-next-icon"></span>
+                <span class="visually-hidden">next</span>
+            </button>
+        </div>
+
+    </div>
+    <!--about -->
+    <div class="container-fluid mb-5" id="about">
+        <div class="container">
+            <div class=" row ">
+                <div class="col-5"></div>
+                <div class="col-2">
+                    <div class="w-50 hr_about"></div>
+                </div>
+                <div class="col-5"></div>
+            </div>
+            <div class="title text-center">
+                <h1 class="title_about">Traditional and Deicious Cake</h1>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <p>
+                    <h2 class="h2_about p-4 pb-2">About us</h2>
+                    </p>
+                    <p class="p-4 pb-1 fs-5 pt-2">The Cake Shop, is a Cake Studio that offers Wedding cakes, Custom
+                        cakes, and a small variety of
+                        bite sized treats.
+                    </p>
+                    <p class="p-4 pt-0 fs-5">The Cake Shop is not a retail bakery. We are by appointment only. This way
+                        we can give each
+                        client and order the care and attention they deserve. We love working with our clients to make
+                        their dessert dreams come true!
+                    </p>
+                    <button class="btn btn-primary ms-4 fs-5">
+                        Learn More
+                    </button>
+                </div>
+                <div class="col-4 p-4">
+                    <div class="image_about w-100">
+                        <img src="Images/photo-about.jpeg" class="img-fluid mx-auto d-block" alt="">
+                    </div>
+                </div>
+                <div class="col-4 ">
+                    <p>
+                    <h2 class="h2_about p-4 pb-2">Our Features </h2>
+                    </p>
+                    <p class="p-4 pb-1 fs-5 pt-2">The Cake Shop, is a Cake Studio that offers Wedding cakes, Custom
+                        cakes, and a small variety of
+                        bite sized treats. Everything is made from scratch in house and with localey sourced ingredients
+                        when possible.
+                    </p>
+                    <p>
+                    <ul style="list-style-type:none;" class="fs-5">
+                        <li><i class="fa-solid fa-check"></i>Appearance</li>
+                        <li><i class="fa-solid fa-check"></i>Texture</li>
+                        <li><i class="fa-solid fa-check"></i>Tenderness</li>
+                    </ul>
+                    </p>
+                    <button class="btn btn-primary ms-4 fs-5">
+                        Learn More
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--promotion-->
+    <div class="container-fluid mt-5">
+        <div class="row">
+            <div class="col-6">
+                <div class="position-relative h-100">
+                    <div class="position-relative div_promo">
+                        <img src="Images/photo-promotion.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="position-absolute top-50 start-50 translate-middle bg-light play_div justify-content-center"
+                        style="width: 90px; height: 90px;border-radius: 50%;">
+                        <div><a href="#"><i class="fa-solid fa-circle-play fa-6x"></i></a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 text-center bg-light">
+                <p class="mt-5">
+                <h2 class="h2_about p-4 mt-5">About us</h2>
+                </p>
+                <p class="p-4 pb-1 fs-5">The Cake Shop, is a Cake Studio that offers Wedding cakes, Custom
+                    cakes, and a small variety of
+                    bite sized treats.
+                </p>
+                <p class="p-4 fs-5">The Cake Shop is not a retail bakery. We are by appointment only. This way
+                    we can give each
+                    client and order the care and attention they deserve. We love working with our clients to make
+                    their dessert dreams come true!
+                </p>
+                <button class="btn ms-4 fs-3 rounded-pill but_promo">
+                    Learn More
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!--services-->
+    <div class="container-fluid mt-5 mb-5 pt-5 pb-5" id="service">
+        <div class="container">
+            <div class="w-25 m-3">
+                <div class="w-50 hr_services"></div>
+            </div>
+            <div class="ms-3 fs-1">
+                <p>Best Services We Provide</p>
+                <p>For Our Clients</p>
+            </div>
+            <div class="container mt-5 m-auto pt-5 d-flex justify-content-between">
+                <div class="w-75 m-auto d-flex text-center">
+                    <div class="card position-relative m-auto p-5 pb-2 pt-3 bg-light" style="width: 18rem;">
+                        <div class="position-absolute top-0 start-50 translate-middle ">
+                            <img src="Images/pro-1.png" class="card-img-top img_ser border border-5 " alt="..."
+                                style="border-radius: 50%;">
+                        </div>
+
+                        <div class="card-body mt-5">
+                            <h5 class="card-title fs-3">Client Name</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the card's content.</p>
+                            <a href="#" class="btn but_card_ser fs-5 rounded-pill">Learn More</a>
+                        </div>
+                    </div>
+                    <div class="card position-relative m-auto p-5 pb-2 pt-3 bg-light" style="width: 18rem;">
+                        <div class="position-absolute top-0 start-50 translate-middle">
+                            <img src="Images/pro-2.jpg" class="card-img-top img_ser border border-5" alt="..."
+                                style="border-radius: 50%;">
+                        </div>
+
+                        <div class="card-body mt-5">
+                            <h5 class="card-title fs-3">Client Name</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the card's content.</p>
+                            <a href="#" class="btn but_card_ser fs-5 rounded-pill">Learn More</a>
+                        </div>
+                    </div>
+                    <div class="card position-relative m-auto p-5 pb-2 pt-3 bg-light" style="width: 18rem;">
+                        <div class="position-absolute top-0 start-50 translate-middle ">
+                            <img src="Images/pro-5.jpg" class="card-img-top img_ser border border-5" alt="..."
+                                style="border-radius: 50%;">
+                        </div>
+
+                        <div class="card-body mt-5">
+                            <h5 class="card-title fs-3">Client Name</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the card's content.</p>
+                            <a href="#" class="btn but_card_ser fs-5 rounded-pill">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--gallery-->
+    <div class="container-fluid p-5">
+        <div class="container m-auto p-5">
+            <div class="w-25 m-3">
+                <div class="w-50 hr_services"></div>
+            </div>
+            <div class="ms-3 fs-1">
+                <p>Best Services We Provide</p>
+                <p>For Our Clients</p>
+            </div>
+            <div class="container m-auto p-5">
+                <div class="row m-auto">
+                    <div class="col-xl-4 col-lg-6 col-12 mb-5 col-md-6 img_1 p-5">
+                            <div class="container m-auto border d-flex border-light border-3 img_in align-items-center justify-content-center" href="#">
+                                <a href="" class="text-decoration-none text-light">Red Velvet</a>
+                            </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-6 col-12 mb-5 col-md-6 img_2 p-5">
+                            <div class="container m-auto border d-flex border-light border-3 img_in align-items-center justify-content-center" href="#">
+                                <a href="" class="text-decoration-none text-light">ButterScotch</a>
+                            </div>
+
+                    </div>
+                    <div class="col-xl-4 col-lg-6 col-12 mb-5 col-md-6 img_3 p-5">
+                            <div class="container m-auto border d-flex border-light border-3 img_in align-items-center justify-content-center" href="#">
+                                <a href="" class="text-decoration-none text-light">Chocolate</a>
+                            </div>
+                    </div>
+                </div>
+                <div class="row m-auto">
+                    <div class="col-xl-4 col-lg-6 col-12 mb-5 col-md-6 img_4 p-5">
+                            <div class="container m-auto border d-flex border-light border-3 img_in align-items-center justify-content-center" href="#">
+                                <a href="" class="text-decoration-none text-light">Pineapple</a>
+                            </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-6 col-12 mb-5 col-md-6 img_5 p-5">
+                            <div class="container m-auto border d-flex border-light border-3 img_in align-items-center justify-content-center" href="#">
+                                <a href="" class="text-decoration-none text-light">Fruit</a>
+                            </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-6 col-12 mb-5 col-md-6 img_6 p-5">
+                            <div class="container m-auto border d-flex border-light border-3 img_in align-items-center justify-content-center" href="#">
+                                <a href="" class="text-decoration-none text-light">Black Forest</a>
+                            </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--products-->
+    <div class="container-fluid mt-5 mb-5 pt-5 pb-5" id="product">
+        <div class="container m-auto">
+            <div class="w-25 m-3">
+                <div class="w-50 hr_services"></div>
+            </div>
+            <div class="ms-3 fs-1">
+                <p>Best Prices We Offer For <br> Ice Cream Lovers</p>
+            </div>
+            <div class="container m-auto mt-5 p-5 d-flex justify-content-between">
+                <div class="card position-relative m-1 p-5 card_price" style="width: 18rem;">
+                    <div class="position-absolute top-0 start-50 translate-middle">
+                        <img src="Images/logo.PNG" class="card-img-top img_ser1 border border-5" alt="..."
+                            style="border-radius: 50%;">
+                    </div>
+                    <div class="card-body text-center">
+                        <div class="w-50 m-auto p-2 fs-5 price">450 Rs.</div>
+                        <h5 class="card-title pt-4 fs-2">Chocolate Cake</h5>
+                        <a href="#" class="btn btn-danger butn-pri rounded-pill fs-5">Order Now</a>
+                    </div>
+                </div>
+                <div class="card position-relative m-1 p-5 card_price" style="width: 18rem;">
+                    <div class="position-absolute top-0 start-50 translate-middle">
+                        <img src="Images/logo.PNG" class="card-img-top img_ser1 border border-5" alt="..."
+                            style="border-radius: 50%;">
+                    </div>
+                    <div class="card-body text-center">
+                        <div class="w-50 m-auto p-2 fs-5 price">450 Rs.</div>
+                        <h5 class="card-title pt-4 fs-2">Chocolate Cake</h5>
+                        <a href="#" class="btn btn-danger butn-pri rounded-pill fs-5">Order Now</a>
+                    </div>
+                </div>
+                <div class="card position-relative m-1 p-5 card_price" style="width: 18rem;">
+                    <div class="position-absolute top-0 start-50 translate-middle">
+                        <img src="Images/logo.PNG" class="card-img-top img_ser1 border border-5" alt="..."
+                            style="border-radius: 50%;">
+                    </div>
+                    <div class="card-body text-center">
+                        <div class="w-50 m-auto p-2 fs-5 price">450 Rs.</div>
+                        <h5 class="card-title pt-4 fs-2">Chocolate Cake</h5>
+                        <a href="#" class="btn btn-danger butn-pri rounded-pill fs-5">Order Now</a>
+                    </div>
+                </div>
+                <div class="card position-relative m-1 p-5 card_price" style="width: 18rem;">
+                    <div class="position-absolute top-0 start-50 translate-middle">
+                        <img src="Images/logo.PNG" class="card-img-top img_ser1 border border-5" alt="..."
+                            style="border-radius: 50%;">
+                    </div>
+                    <div class="card-body text-center">
+                        <div class="w-50 m-auto p-2 fs-5 price">450 Rs.</div>
+                        <h5 class="card-title pt-4 fs-2">Chocolate Cake</h5>
+                        <a href="#" class="btn btn-danger butn-pri rounded-pill fs-5">Order Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Team-->
+    <div class="container-fluid mt-5">
+        <div class="container m-auto">
+            <div class="w-25 m-3">
+                <div class="w-50 hr_services"></div>
+            </div>
+            <div class="ms-3 fs-1">
+                <p>Experienced & Most <br> Famous cake Chefs</p>
+            </div>
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators mt-5">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1" style="width: 15px; height:15px; border-radius:50%;background-color: indigo;"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"  aria-label="Slide 2" style="width: 15px; height:15px; border-radius:50%;background-color: indigo;"></button>
+                </div>
+                <div class="carousel-inner mb-5">
+                    <div class="carousel-item active p-5">
+                        <div class="row p-5">
+                            <div class="col-md-4 text-center ">
+                                <div class="card w-75 m-auto mt-3 border border-0" style="background-color:white; border-radius: 20px;">
+                                    <div class="img-area img_area_chef bg-danger" style="border-radius: 20px 20px 20px 0px;"><img src="Images/pro-1.png" class="border border-5 border-white" alt="" style="border-radius:50%"></div>
+                                    <div class="img-text text-white mt-1" style="border-radius: 20px 0px 20px 20px; background-color: indigo;">
+                                        <p class="pt-5 fs-3">Person Name</p>
+                                        <p>Designation</p>
+                                        <div class="icon-owl d-flex justify-content-center">
+                                            <div class="fb-icon text-center text-white p-2 mb-3 pb-5"><i class="fa-brands fa-facebook fa-2x"></i></div>
+                                            <div class="tw-icon text-center text-white p-2 mb-3 pb-5"><i class="fa-brands fa-twitter fa-2x"></i></div>
+                                            <div class="in-icon text-center text-white p-2 mb-3 pb-5"><i class="fa-brands fa-linkedin-in fa-2x"></i></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 text-center">
+                                <div class="card w-75 m-auto mt-3 border border-0" style="background-color:white; border-radius: 20px;">
+                                    <div class="img-area img_area_chef bg-danger" style="border-radius: 20px 20px 20px 0px;"><img src="Images/pro-2.jpg" class="border border-5 border-white" alt="" style="border-radius:50%"></div>
+                                    <div class="img-text text-white mt-1" style="border-radius: 20px 0px 20px 20px; background-color: indigo;">
+                                        <p class="pt-5 fs-3">Person Name</p>
+                                        <p>Designation</p>
+                                        <div class="icon-owl d-flex justify-content-center">
+                                            <div class="fb-icon text-center text-white p-2 mb-3 pb-5"><i class="fa-brands fa-facebook fa-2x"></i></div>
+                                            <div class="tw-icon text-center text-white p-2 mb-3 pb-5"><i class="fa-brands fa-twitter fa-2x"></i></div>
+                                            <div class="in-icon text-center text-white p-2 mb-3 pb-5"><i class="fa-brands fa-linkedin-in fa-2x"></i></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 text-center">
+                                <div class="card w-75 m-auto mt-3 border border-0" style="background-color:white; border-radius: 20px;">
+                                    <div class="img-area img_area_chef bg-danger" style="border-radius: 20px 20px 20px 0px;"><img src="Images/pro-5.jpg" class="border border-5 border-white" alt="" style="border-radius:50%"></div>
+                                    <div class="img-text text-white mt-1" style="border-radius: 20px 0px 20px 20px; background-color: indigo;">
+                                        <p class="pt-5 fs-3">Person Name</p>
+                                        <p>Designation</p>
+                                        <div class="icon-owl d-flex justify-content-center">
+                                            <div class="fb-icon text-center text-white p-2 mb-3 pb-5"><i class="fa-brands fa-facebook fa-2x"></i></div>
+                                            <div class="tw-icon text-center text-white p-2 mb-3 pb-5"><i class="fa-brands fa-twitter fa-2x"></i></div>
+                                            <div class="in-icon text-center text-white p-2 mb-3 pb-5"><i class="fa-brands fa-linkedin-in fa-2x"></i></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item p-5">
+                        <div class="row p-5">
+                            <div class="col-md-4 text-center">
+                                <div class="card w-75 m-auto mt-3 border border-0" style="background-color:white; border-radius: 20px;">
+                                    <div class="img-area img_area_chef bg-danger" style="border-radius: 20px 20px 20px 0px;"><img src="Images/pro-1.png" class="border border-5 border-white" alt="" style="border-radius:50%"></div>
+                                    <div class="img-text text-white mt-1" style="border-radius: 20px 0px 20px 20px; background-color: indigo;">
+                                        <p class="pt-5 fs-3">Person Name</p>
+                                        <p>Designation</p>
+                                        <div class="icon-owl d-flex justify-content-center ">
+                                            <div class="fb-icon text-center text-white p-2 mb-3 pb-5"><i class="fa-brands fa-facebook fa-2x"></i></div>
+                                            <div class="tw-icon text-center text-white p-2 mb-3 pb-5"><i class="fa-brands fa-twitter fa-2x"></i></div>
+                                            <div class="in-icon text-center text-white p-2 mb-3 pb-5"><i class="fa-brands fa-linkedin-in fa-2x"></i></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 text-center">
+                                <div class="card w-75 m-auto mt-3 border border-0" style="background-color:white; border-radius: 20px;">
+                                    <div class="img-area img_area_chef bg-danger" style="border-radius: 20px 20px 20px 0px;"><img src="Images/pro-2.jpg" class="border border-5 border-white" alt="" style="border-radius:50%"></div>
+                                    <div class="img-text text-white mt-1" style="border-radius: 20px 0px 20px 20px; background-color: indigo;">
+                                        <p class="pt-5 fs-3">Person Name</p>
+                                        <p>Designation</p>
+                                        <div class="icon-owl d-flex justify-content-center ">
+                                            <div class="fb-icon text-center text-white p-2 mb-3 pb-5"><i class="fa-brands fa-facebook fa-2x"></i></div>
+                                            <div class="tw-icon text-center text-white p-2 mb-3 pb-5"><i class="fa-brands fa-twitter fa-2x"></i></div>
+                                            <div class="in-icon text-center text-white p-2 mb-3 pb-5"><i class="fa-brands fa-linkedin-in fa-2x"></i></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 text-center">
+                                <div class="card w-75 m-auto mt-3 border border-0" style="background-color:white; border-radius: 20px;">
+                                    <div class="img-area img_area_chef bg-danger" style="border-radius: 20px 20px 20px 0px;"><img src="Images/pro-5.jpg" class="border border-5 border-white" alt="" style="border-radius:50%"></div>
+                                    <div class="img-text text-white mt-1" style="border-radius: 20px 0px 20px 20px; background-color: indigo;">
+                                        <p class="pt-5 fs-3">Person Name</p>
+                                        <p>Designation</p>
+                                        <div class="icon-owl d-flex justify-content-center ">
+                                            <div class="fb-icon text-center text-white p-2 mb-3 pb-5"><i class="fa-brands fa-facebook fa-2x"></i></div>
+                                            <div class="tw-icon text-center text-white p-2 mb-3 pb-5"><i class="fa-brands fa-twitter fa-2x"></i></div>
+                                            <div class="in-icon text-center text-white p-2 mb-3 pb-5"><i class="fa-brands fa-linkedin-in fa-2x"></i></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev mb-5" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" style="border-radius: 50%; background-color:indigo;" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next mb-5" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" style="border-radius: 50%; background-color:indigo;" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!--testimonial-->
+    <div class="container-fluid">
+        <div class="container">
+            <div class="w-25 m-auto">
+                <div class="w-50 m-auto hr_about"></div>
+            </div>
+            <div class="title text-center mt-5 mb-5">
+                <h1 class="title_about">Clients Say About Our <br> Famous Ice Cream</h1>
+            </div>
+            <div class="w-75 m-auto text-center">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators ">
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active bg-primary" aria-current="true" aria-label="Slide 1" style="width: 15px;height:15px;border-radius:50%;"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"  class="bg-primary" aria-label="Slide 2" style="width: 15px;height:15px;border-radius:50%;"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"  class="bg-primary" aria-label="Slide 3" style="width: 15px;height:15px;border-radius:50%;"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <div class="text-center">
+                            <i class="fa fa-3x fa-quote-left mb-4 text-danger"></i>
+                            <h4 class="font-weight-light mb-4 " style="color: indigo;">Dolor eirmod diam stet kasd sed. Aliqu rebum est eos. Rebum elitr dolore et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</h4>
+                            <img class="img-fluid mx-auto mb-3" src="Images/test-1.png" alt="" style="border-radius: 50%;">
+                            <h5 class="font-weight-bold mb-5 fs-3" style="color: indigo;">Client Name</h5>
+                            <span>Profession</span>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="text-center">
+                            <i class="fa fa-3x fa-quote-left mb-4 text-danger"></i>
+                            <h4 class="font-weight-light mb-4 " style="color: indigo;">Dolor eirmod diam stet kasd sed. Aliqu rebum est eos. Rebum elitr dolore et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</h4>
+                            <img class="img-fluid mx-auto mb-3" src="Images/test-2.jpg" alt="" style="border-radius: 50%;">
+                            <h5 class="font-weight-bold mb-5 fs-3" style="color: indigo;">Client Name</h5>
+                            <span>Profession</span>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="text-center">
+                            <i class="fa fa-3x fa-quote-left mb-4 text-danger"></i>
+                            <h4 class="font-weight-light mb-4 " style="color: indigo;">Dolor eirmod diam stet kasd sed. Aliqu rebum est eos. Rebum elitr dolore et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</h4>
+                            <img class="img-fluid mx-auto mb-3" src="Images/test-3.jpg" alt="" style="border-radius: 50%;">
+                            <h5 class="font-weight-bold mb-5 fs-3" style="color: indigo;">Client Name</h5>
+                            <span>Profession</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+    <!--footer-->
+    <div class="container-fluid mt-5 mb-5 pt-5 pb-5 bg-danger" id="contact">
+        <div class="container m-auto text-center">
+            <div class="row">
+                <div class="col-2 m-auto bg-light rounded-pill mb-4">
+                    <h1 class="logo_cake" style="color: indigo;">C
+                        <i class="fa-sm fa-solid fa-cake-candles"></i>
+                        ke
+                    </h1>
+                </div>
+                <div class="col-12 mb-4">
+                    <a class="btn btn-social mr-2" href="#" style="color: white;"><i class="fab fa-2x fa-beat fa-twitter"></i></a>
+                    <a class="btn btn-social mr-2" href="#" style="color: white;"><i class="fab fa-2x fa-beat fa-facebook-f"></i></a>
+                    <a class="btn btn-social mr-2" href="#" style="color: white;"><i class="fab fa-2x fa-beat fa-linkedin-in"></i></a>
+                    <a class="btn btn-social" href="#" style="color: white;"><i class="fab fa-2x fa-beat fa-instagram"></i></a>
+                </div>
+                <div class="col-12 mt-2 mb-4 text-white">
+                    <div class="container d-flex m-auto">
+                        <div class="w-50 d-flex m-auto fs-4">
+                            <div class="w-25 m-auto text-center text-sm-right border-right mb-3 mb-sm-0">
+                                <h5 class="font-weight-bold mb-2 fs-3">Get In Touch</h5>
+                                <p class="mb-2">123 Street, New York, USA</p>
+                                <p class="mb-0">+012 345 67890</p>
+                            </div>
+                            <div class="w-25 m-auto text-center text-sm-left">
+                                <h5 class="font-weight-bold mb-2 fs-3">Opening Hours</h5>
+                                <p class="mb-2">Mon – Sat, 8AM – 5PM</p>
+                                <p class="mb-0">Sunday: Closed</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
